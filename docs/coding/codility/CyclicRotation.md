@@ -1,12 +1,8 @@
 ---
 title: CyclicRotation
-tags: [array]
+lesson: L2
+tags: [arrays]
 level: easy
 ---
 
 Rotate an array to the right by a given number of steps.
-
-## Example
-
-Input: A = [3, 8, 9, 7, 6], K = 3
-Output: [9, 7, 6, 3, 8]

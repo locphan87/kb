@@ -1,16 +1,9 @@
----
-title: BinaryGap
-tags: [iterations]
-level: easy
----
-
-Find longest sequence of zeros in binary representation of an integer.
-
-ref: https://app.codility.com/programmers/lessons/1-iterations/binary_gap/
-
-## Solution
-
-```ts
+/**
+ * Find longest sequence of zeros in binary representation of an integer.
+ *
+ * @param N - The integer to check.
+ * @returns The length of the longest binary gap.
+ */
 export function binaryGap(N: number): number {
     const binary = N.toString(2);
     let maxGap = 0;
@@ -28,4 +21,3 @@ export function binaryGap(N: number): number {
 
     return maxGap;
 }
-```
