@@ -1,8 +1,10 @@
 ---
+slug: pair-programming-with-cursor
 title: "Pair Programming with Cursor AI IDE"
 description: "The Future of Human-AI Collaboration in Software Development — a practical guide to AI-powered, context-aware, productivity-first pair programming."
+authors: [locp]
 tags: [cursor, ai, pair-programming, productivity, developer-tools]
-date: 2025-05-01
+date: 2026-05-01
 ---
 
 # Pair Programming with Cursor AI IDE
