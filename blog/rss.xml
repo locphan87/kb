@@ -4,10 +4,130 @@
         <title>My Site Blog</title>
         <link>https://locphan87.github.io/kb/blog</link>
         <description>My Site Blog</description>
-        <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 01 May 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Pair Programming with Cursor AI IDE]]></title>
+            <link>https://locphan87.github.io/kb/blog/pair-programming-with-cursor-ai</link>
+            <guid>https://locphan87.github.io/kb/blog/pair-programming-with-cursor-ai</guid>
+            <pubDate>Thu, 01 May 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Future of Human-AI Collaboration in Software Development — a practical guide to AI-powered, context-aware, productivity-first pair programming.]]></description>
+            <content:encoded><![CDATA[<blockquote>
+<p>The Future of Human-AI Collaboration in Software Development</p>
+</blockquote>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-is-pair-programming">What is Pair Programming?<a href="https://locphan87.github.io/kb/blog/pair-programming-with-cursor-ai#what-is-pair-programming" class="hash-link" aria-label="Direct link to What is Pair Programming?" title="Direct link to What is Pair Programming?" translate="no">​</a></h2>
+<p>Pair programming is a development practice where two people collaborate on the same code. In the traditional model, one person <strong>drives</strong> (writes code) while the other <strong>navigates</strong> (reviews and guides). With AI tools like Cursor, this dynamic evolves significantly.</p>
+<table><thead><tr><th>Traditional</th><th>AI-Assisted (Cursor)</th></tr></thead><tbody><tr><td>Two developers share one workstation</td><td>Developer + AI model as co-pilot</td></tr><tr><td>Driver writes code, Navigator reviews</td><td>AI acts as an always-on Navigator</td></tr><tr><td>Roles switch periodically</td><td>AI suggests, developer decides</td></tr><tr><td>Promotes knowledge sharing</td><td>Accelerates code generation speed</td></tr><tr><td>Reduces defects &amp; bugs in real-time</td><td>24/7 availability — no scheduling</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-is-cursor-ai-ide">What is Cursor AI IDE?<a href="https://locphan87.github.io/kb/blog/pair-programming-with-cursor-ai#what-is-cursor-ai-ide" class="hash-link" aria-label="Direct link to What is Cursor AI IDE?" title="Direct link to What is Cursor AI IDE?" translate="no">​</a></h2>
+<p>Cursor is an AI-first code editor built on VS Code, designed for intelligent pair programming. It understands your entire codebase and helps you write, refactor, and reason about code through natural language.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="core-features">Core Features<a href="https://locphan87.github.io/kb/blog/pair-programming-with-cursor-ai#core-features" class="hash-link" aria-label="Direct link to Core Features" title="Direct link to Core Features" translate="no">​</a></h3>
+<p><strong>🧠 Codebase Context</strong>
+Understands your entire repo — files, symbols, history — for precise, relevant suggestions.</p>
+<p><strong>💬 Chat Interface</strong>
+Ask questions about your code in natural language. Get explanations, fixes, and improvements.</p>
+<p><strong>✏️ Inline Editing</strong>
+<code>Ctrl+K</code> to refactor, generate, or transform code directly in the editor.</p>
+<p><strong>⚡ Tab Autocomplete</strong>
+Multi-line completions that learn from your context and coding style.</p>
+<p><strong>🔒 Privacy Mode</strong>
+Local inference and <code>.cursorrules</code> ensure enterprise-grade code privacy.</p>
+<p><strong>🔀 Version Control</strong>
+AI-assisted commit messages, PR reviews, and diff explanations built-in.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-pair-programming-workflow-with-cursor">The Pair Programming Workflow with Cursor<a href="https://locphan87.github.io/kb/blog/pair-programming-with-cursor-ai#the-pair-programming-workflow-with-cursor" class="hash-link" aria-label="Direct link to The Pair Programming Workflow with Cursor" title="Direct link to The Pair Programming Workflow with Cursor" translate="no">​</a></h2>
+<p>A practical 4-step loop for daily engineering work:</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-01--define-the-task">Step 01 — Define the Task<a href="https://locphan87.github.io/kb/blog/pair-programming-with-cursor-ai#step-01--define-the-task" class="hash-link" aria-label="Direct link to Step 01 — Define the Task" title="Direct link to Step 01 — Define the Task" translate="no">​</a></h3>
+<p>Open a ticket or issue. Describe the goal in a Cursor Chat prompt for context-aware AI priming.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-02--ai-generates-draft">Step 02 — AI Generates Draft<a href="https://locphan87.github.io/kb/blog/pair-programming-with-cursor-ai#step-02--ai-generates-draft" class="hash-link" aria-label="Direct link to Step 02 — AI Generates Draft" title="Direct link to Step 02 — AI Generates Draft" translate="no">​</a></h3>
+<p>Cursor suggests code, function signatures, or refactored snippets. You stay in control as the Navigator.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-03--review--refine">Step 03 — Review &amp; Refine<a href="https://locphan87.github.io/kb/blog/pair-programming-with-cursor-ai#step-03--review--refine" class="hash-link" aria-label="Direct link to Step 03 — Review &amp; Refine" title="Direct link to Step 03 — Review &amp; Refine" translate="no">​</a></h3>
+<p>Review the output, ask follow-up questions, request edge-case handling or test generation.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-04--commit--iterate">Step 04 — Commit &amp; Iterate<a href="https://locphan87.github.io/kb/blog/pair-programming-with-cursor-ai#step-04--commit--iterate" class="hash-link" aria-label="Direct link to Step 04 — Commit &amp; Iterate" title="Direct link to Step 04 — Commit &amp; Iterate" translate="no">​</a></h3>
+<p>Accept and commit. The AI helps write commit messages and suggests next steps based on your codebase.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="key-cursor-features-for-pair-programming">Key Cursor Features for Pair Programming<a href="https://locphan87.github.io/kb/blog/pair-programming-with-cursor-ai#key-cursor-features-for-pair-programming" class="hash-link" aria-label="Direct link to Key Cursor Features for Pair Programming" title="Direct link to Key Cursor Features for Pair Programming" translate="no">​</a></h2>
+<table><thead><tr><th>Shortcut / Feature</th><th>Name</th><th>What It Does</th></tr></thead><tbody><tr><td><code>Ctrl+K</code></td><td>Inline Edit</td><td>Select code, describe change → AI rewrites in place. Great for refactoring and TypeScript type fixes.</td></tr><tr><td><code>Ctrl+L</code></td><td>Chat Panel</td><td>Talk to AI about your open file or entire codebase. Ask: <em>"Why does this fail?"</em> or <em>"Suggest a test."</em></td></tr><tr><td><code>@codebase</code></td><td>Codebase Search</td><td>Reference any file, symbol, or folder in your prompt. AI gains full context before responding.</td></tr><tr><td><code>.cursorrules</code></td><td>Custom Instructions</td><td>Define project standards: TS style, preferred libraries, coding patterns — AI follows them.</td></tr><tr><td>Composer</td><td>Multi-file Edits</td><td>Describe a feature → AI plans &amp; edits across multiple files simultaneously. Like a sprint in minutes.</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="benefits-for-engineering-teams">Benefits for Engineering Teams<a href="https://locphan87.github.io/kb/blog/pair-programming-with-cursor-ai#benefits-for-engineering-teams" class="hash-link" aria-label="Direct link to Benefits for Engineering Teams" title="Direct link to Benefits for Engineering Teams" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="by-the-numbers">By the Numbers<a href="https://locphan87.github.io/kb/blog/pair-programming-with-cursor-ai#by-the-numbers" class="hash-link" aria-label="Direct link to By the Numbers" title="Direct link to By the Numbers" translate="no">​</a></h3>
+<table><thead><tr><th>Metric</th><th>Impact</th></tr></thead><tbody><tr><td>Feature delivery speed</td><td>~55% faster</td></tr><tr><td>Code review cycles</td><td>~40% fewer</td></tr><tr><td>Test generation speed</td><td>~3× faster</td></tr><tr><td>Navigator availability</td><td>Always on</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="qualitative-gains">Qualitative Gains<a href="https://locphan87.github.io/kb/blog/pair-programming-with-cursor-ai#qualitative-gains" class="hash-link" aria-label="Direct link to Qualitative Gains" title="Direct link to Qualitative Gains" translate="no">​</a></h3>
+<ul>
+<li class="">Junior devs ramp up faster with AI explanations</li>
+<li class="">Instant refactoring and code consistency</li>
+<li class="">Creative solutions surfaced by AI exploration</li>
+<li class="">Edge cases caught before pull requests</li>
+<li class="">Boilerplate eliminated — focus on business logic</li>
+<li class="">Measurable velocity boost in sprints</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="best-practices">Best Practices<a href="https://locphan87.github.io/kb/blog/pair-programming-with-cursor-ai#best-practices" class="hash-link" aria-label="Direct link to Best Practices" title="Direct link to Best Practices" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-do">✅ DO<a href="https://locphan87.github.io/kb/blog/pair-programming-with-cursor-ai#-do" class="hash-link" aria-label="Direct link to ✅ DO" title="Direct link to ✅ DO" translate="no">​</a></h3>
+<ul>
+<li class="">Write clear, specific prompts with context</li>
+<li class="">Define <code>.cursorrules</code> for project standards</li>
+<li class="">Use <code>@codebase</code> when referencing symbols or files</li>
+<li class="">Review every AI suggestion critically</li>
+<li class="">Ask AI to explain complex code sections</li>
+<li class="">Leverage Composer for multi-file tasks</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-dont">❌ DON'T<a href="https://locphan87.github.io/kb/blog/pair-programming-with-cursor-ai#-dont" class="hash-link" aria-label="Direct link to ❌ DON'T" title="Direct link to ❌ DON'T" translate="no">​</a></h3>
+<ul>
+<li class="">Blindly accept suggestions without review</li>
+<li class="">Share secrets or credentials in prompts</li>
+<li class="">Rely on AI for final security decisions</li>
+<li class="">Skip writing unit tests for AI-generated code</li>
+<li class="">Ignore AI context — give it the relevant files</li>
+<li class="">Let AI replace your code review processes</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="real-world-pairing-scenarios">Real-World Pairing Scenarios<a href="https://locphan87.github.io/kb/blog/pair-programming-with-cursor-ai#real-world-pairing-scenarios" class="hash-link" aria-label="Direct link to Real-World Pairing Scenarios" title="Direct link to Real-World Pairing Scenarios" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-debugging-session">🐛 Debugging Session<a href="https://locphan87.github.io/kb/blog/pair-programming-with-cursor-ai#-debugging-session" class="hash-link" aria-label="Direct link to 🐛 Debugging Session" title="Direct link to 🐛 Debugging Session" translate="no">​</a></h3>
+<p><strong>Roles:</strong> You: Driver | Cursor: Navigator</p>
+<ol>
+<li class="">Paste the error into Chat</li>
+<li class="">AI identifies root cause</li>
+<li class="">AI suggests a targeted fix</li>
+<li class="">You review and apply</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-feature-implementation">🚀 Feature Implementation<a href="https://locphan87.github.io/kb/blog/pair-programming-with-cursor-ai#-feature-implementation" class="hash-link" aria-label="Direct link to 🚀 Feature Implementation" title="Direct link to 🚀 Feature Implementation" translate="no">​</a></h3>
+<p><strong>Roles:</strong> You: Architect | Cursor: Implementer</p>
+<ol>
+<li class="">Define the spec in a prompt</li>
+<li class="">Composer drafts code across files</li>
+<li class="">You review for edge cases</li>
+<li class="">Iterate with follow-up prompts</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-code-review-prep">🔍 Code Review Prep<a href="https://locphan87.github.io/kb/blog/pair-programming-with-cursor-ai#-code-review-prep" class="hash-link" aria-label="Direct link to 🔍 Code Review Prep" title="Direct link to 🔍 Code Review Prep" translate="no">​</a></h3>
+<p><strong>Roles:</strong> You: Author | Cursor: Reviewer</p>
+<ol>
+<li class="">Ask AI to review your diff</li>
+<li class="">Identify code smells and anti-patterns</li>
+<li class="">AI suggests improvements</li>
+<li class="">Clean up the code before opening the PR</li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="closing-thoughts">Closing Thoughts<a href="https://locphan87.github.io/kb/blog/pair-programming-with-cursor-ai#closing-thoughts" class="hash-link" aria-label="Direct link to Closing Thoughts" title="Direct link to Closing Thoughts" translate="no">​</a></h2>
+<blockquote>
+<p><em>"The best engineers of the future won't be those who replace AI — they'll be those who work seamlessly alongside it."</em></p>
+</blockquote>
+<p>AI pair programming is not about replacing developers — it's about amplifying what developers can do. Cursor sits alongside you like a knowledgeable teammate who never sleeps, never loses context, and always has a suggestion ready.</p>
+<p><strong>Get started:</strong></p>
+<ul>
+<li class="">🌐 Try Cursor at <a href="https://cursor.com/" target="_blank" rel="noopener noreferrer" class="">cursor.com</a></li>
+<li class="">🔁 Build a daily AI pairing habit</li>
+<li class="">📈 Measure the impact on your team's velocity</li>
+</ul>]]></content:encoded>
+            <category>cursor</category>
+            <category>ai</category>
+            <category>pair-programming</category>
+            <category>productivity</category>
+            <category>developer-tools</category>
+        </item>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://locphan87.github.io/kb/blog/welcome</link>
@@ -41,7 +161,7 @@
 <div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>Use the power of React to create interactive blog posts.</p></div></div>
 <!-- -->
 <p>For example, use JSX to create an interactive button:</p>
-<div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">button onClick</span><span class="token operator" style="color:#393A34">=</span><span class="token punctuation" style="color:#393A34">{</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">alert</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'button clicked!'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">}</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token maybe-class-name">Click</span><span class="token plain"> me</span><span class="token operator" style="color:#393A34">!</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token operator" style="color:#393A34">/</span><span class="token plain">button</span><span class="token operator" style="color:#393A34">&gt;</span><br></div></code></pre></div></div>
+<div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">button onClick</span><span class="token operator" style="color:#393A34">=</span><span class="token punctuation" style="color:#393A34">{</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">alert</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'button clicked!'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">}</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token maybe-class-name">Click</span><span class="token plain"> me</span><span class="token operator" style="color:#393A34">!</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token operator" style="color:#393A34">/</span><span class="token plain">button</span><span class="token operator" style="color:#393A34">&gt;</span><br></span></code></pre></div></div>
 <button>Click me!</button>]]></content:encoded>
             <category>Docusaurus</category>
         </item>
