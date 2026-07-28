@@ -1,0 +1,8 @@
+build
+.docusaurus
+node_modules
+yarn.lock
+
+# Notes are written by hand; Prettier must not reflow them
+docs
+blog

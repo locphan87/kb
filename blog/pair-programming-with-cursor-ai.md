@@ -11,6 +11,8 @@ date: 2026-05-01
 
 > The Future of Human-AI Collaboration in Software Development
 
+<!-- truncate -->
+
 ---
 
 ## What is Pair Programming?

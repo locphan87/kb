@@ -26,9 +26,9 @@ describe('Home page', () => {
     expect(getByText('Test Tagline')).toBeInTheDocument()
   })
 
-  it('renders the tutorial link', () => {
+  it('renders the docs call to action', () => {
     const { getByText } = render(<Home />)
-    expect(getByText('Docusaurus Tutorial - 5min ⏱️')).toBeInTheDocument()
+    expect(getByText('Browse the knowledge base')).toBeInTheDocument()
   })
 
   it('renders HomepageFeatures', () => {
