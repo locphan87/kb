@@ -1,47 +1,29 @@
 ---
 sidebar_position: 1
+title: Start here
 ---
 
-# Tutorial Intro
+# Knowledge Base
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Notes, cheat sheets and summaries collected while building software — kept here so
+they are searchable and easy to link to instead of living in scattered files.
 
-## Getting Started
+## What's inside
 
-Get started by **creating a new site**.
+| Section | Contents |
+| --- | --- |
+| [Claude / spec-driven workflow](./claude/pricing/pricing-claude.md) | Conventions, guardrails, subagents and worktree setup for working with Claude Code on a squad |
+| [Glossary](./glossary/index.md) | Short definitions of terms worth remembering |
+| [Courses](./courses/index.md) | Notes taken while working through courses |
+| [Books](./books/p-ai-r-programming-how-ai-tools-like-github-copilot-and-chatgpt-can-radically-transform-your-development-workflow.md) | Book highlights |
+| [Web links](./web-links/index.md) | Reference cards and summaries of articles worth keeping |
+| [Vocabulary](./vocabulary/index.md) | Expressions and phrases |
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## Adding a note
 
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+1. Drop a markdown file into the relevant folder under `docs/` — the sidebar is generated
+   from the folder structure, so no registration step is needed.
+2. Add front matter with at least a `title` when the filename is not a good sidebar label.
+3. Use `_category_.json` in a folder to control its sidebar label and position.
+4. Run `yarn start` to preview, and `yarn build` before pushing — the build fails on broken
+   links, so a typo in a relative link is caught early.

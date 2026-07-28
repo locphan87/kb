@@ -7,14 +7,14 @@
  */
 export function cyclicRotation(A: number[], K: number): number[] {
   if (A.length === 0) {
-    return A;
+    return A
   }
 
-  const steps = K % A.length;
+  const steps = K % A.length
 
   if (steps === 0) {
-    return A;
+    return A
   }
 
-  return [...A.slice(-steps), ...A.slice(0, A.length - steps)];
+  return [...A.slice(-steps), ...A.slice(0, A.length - steps)]
 }

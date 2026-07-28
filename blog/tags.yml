@@ -1,19 +1,24 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+ai:
+  label: AI
+  permalink: /ai
+  description: Artificial intelligence and LLM-assisted engineering
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+cursor:
+  label: Cursor
+  permalink: /cursor
+  description: The Cursor AI IDE
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+pair-programming:
+  label: Pair programming
+  permalink: /pair-programming
+  description: Collaborative programming practices
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+productivity:
+  label: Productivity
+  permalink: /productivity
+  description: Getting more done with less friction
+
+developer-tools:
+  label: Developer tools
+  permalink: /developer-tools
+  description: Tooling that makes engineering work better

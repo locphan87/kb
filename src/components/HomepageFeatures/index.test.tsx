@@ -10,7 +10,7 @@ import HomepageFeatures from './index'
 
 test('renders all feature titles', () => {
   const { getByText } = render(<HomepageFeatures />)
-  expect(getByText('Easy to Use')).toBeTruthy()
-  expect(getByText('Focus on What Matters')).toBeTruthy()
-  expect(getByText('Powered by React')).toBeTruthy()
+  expect(getByText('Engineering notes')).toBeTruthy()
+  expect(getByText('AI-assisted workflows')).toBeTruthy()
+  expect(getByText('Searchable and linkable')).toBeTruthy()
 })
