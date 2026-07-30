@@ -1,0 +1,92 @@
+.page {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background: var(--ifm-color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+}
+
+.avatarInitials {
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.name {
+  margin-bottom: 0.25rem;
+}
+
+.tagline {
+  color: var(--ifm-color-emphasis-600);
+  font-size: 1.1rem;
+}
+
+.section {
+  margin-bottom: 2.5rem;
+}
+
+.sectionTitle {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid var(--ifm-color-primary);
+  padding-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.bioText {
+  line-height: 1.7;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.linkCard {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.875rem 1.25rem;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 8px;
+  color: var(--ifm-font-color-base);
+  text-decoration: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.linkCard:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+.linkIcon {
+  display: flex;
+  align-items: center;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.linkCard:hover .linkIcon {
+  color: var(--ifm-color-primary);
+}
+
+.linkLabel {
+  font-weight: 500;
+}

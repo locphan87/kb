@@ -81,8 +81,9 @@ const config: Config = {
           label: 'Tutorial',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/contact', label: 'Contact', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/locphan87/kb',
           label: 'GitHub',
           position: 'right',
         },
