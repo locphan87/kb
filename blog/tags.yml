@@ -17,3 +17,8 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+daily:
+  label: Daily
+  permalink: /daily
+  description: Daily notes / journal entries
